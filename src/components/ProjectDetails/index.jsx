@@ -185,8 +185,8 @@ const Button = styled.a`
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
     return (
-        <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
-            <Container>
+        <Modal  open={true} onClose={() => setOpenModal({ state: false, project: null })} >
+            <Container className="project-card">
                 <Wrapper>
                     <CloseRounded
                         style={{
@@ -198,14 +198,14 @@ const index = ({ openModal, setOpenModal }) => {
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
                     <Image src={project?.image} />
-                    <Title>{project?.title}</Title>
+                    <Title className="project-title">{project?.title}</Title>
                     <Date>{project.date}</Date>
-                    <Tags>
+                    <Tags className="project-tech-stack">
                         {project?.tags.map((tag,index) => (
-                            <Tag key={index}>{tag}</Tag>
+                            <Tag className="project-tech-stack" key={index}>{tag}</Tag>
                         ))}
                     </Tags>
-                    <Desc>{project?.description}</Desc>
+                    <Desc className="project-description">{project?.description}</Desc>
                     {project.member && (
                         <>
                             <Label>Members</Label>

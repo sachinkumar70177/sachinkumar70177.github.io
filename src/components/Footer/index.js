@@ -3,6 +3,9 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 import { Bio } from '../../data/constants';
 import { Email, Phone } from '@mui/icons-material';
 
@@ -98,14 +101,16 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
+
+        <SocialMediaIcon href={Bio.github} target="display" id='contact-github'><GitHubIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
           
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display" className='contact-linkedin'><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display" id='contact-linkedin'><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
          
         </SocialMediaIcons>
-        <SocialMediaIcon href='#' id='contact-email'> <Email/> SachinPatel.k.786@gmail.com</SocialMediaIcon>
+        <SocialMediaIcon href='#' > <Email/> SachinPatel.k.786@gmail.com</SocialMediaIcon>
         <SocialMediaIcon id='contact-phone'><Phone/> +91-7017743805</SocialMediaIcon>
         <Copyright>
           &copy; 2023 Sachin Kumar. All rights reserved.

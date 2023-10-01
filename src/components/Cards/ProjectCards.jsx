@@ -126,7 +126,7 @@ const ProjectCards = ({project,setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})} className='project-card'>
             <Image src={project.image}/>
-            <Tags>
+            <Tags className="project-tech-stack">
                 {project.tags?.map((tag, index) => (
                 <Tag className='project-tech-stack'>{tag}</Tag>
                 ))}
