@@ -50,7 +50,7 @@ const Projects = ({openModal,setOpenModal}) => {
               <ProjectCard class="project-card" key ={index} project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
         </CardContainer>
-      </Wrapper>z
+      </Wrapper>
     </Container>
   )
 }

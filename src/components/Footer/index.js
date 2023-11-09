@@ -93,13 +93,13 @@ function Footer() {
     <FooterContainer>
       <FooterWrapper>
         <Logo>Sachin Kumar</Logo>
-        <Nav>
+        {/* <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Contact</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
-        </Nav>
+        </Nav> */}
         <SocialMediaIcons>
 
         <SocialMediaIcon href={Bio.github} target="display" id='contact-github'><GitHubIcon /></SocialMediaIcon>

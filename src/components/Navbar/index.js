@@ -54,7 +54,7 @@ const Navbar = ({ setDarkMode }) => {
          {/* home */}
           <NavLink className="nav-link home" href="#home">GithubStats</NavLink>
           {/* education */}
-          <NavLink className="nav-link education" href="#education">Education</NavLink>
+          {/* <NavLink className="nav-link education" href="#education">Education</NavLink> */}
           {/* contact */}
           <NavLink className="nav-link contact" href="#contact">Contact</NavLink>
 
@@ -62,7 +62,7 @@ const Navbar = ({ setDarkMode }) => {
         <ButtonContainer   className="nav-link resume" id="resume-button-1">
           <ResumeButton
             href={Bio.resume}
-            download="Sachin-Kumar Full-Stack-Web-Developer.pdf"
+            download="Sachin-Kumar-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link resume"
@@ -106,14 +106,14 @@ const Navbar = ({ setDarkMode }) => {
             >
               GithubStats
             </MobileLink>
-            <MobileLink
+            {/* <MobileLink
               href="#education"
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
             >
               Education
-            </MobileLink>
+            </MobileLink> */}
             <MobileLink className="nav-link contact"
               href="#contact"
               onClick={() => {
@@ -132,7 +132,7 @@ const Navbar = ({ setDarkMode }) => {
               href={Bio.resume}
               target="_blank"
               className="nav-link resume"
-              download="Sachin-Kumar Full-Stack-Web-Developer.pdf"
+              download="Sachin-Kumar-resume.pdf"
              
               rel="noopener noreferrer"
             >

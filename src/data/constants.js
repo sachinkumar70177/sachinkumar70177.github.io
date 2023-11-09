@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/sachinkumar70177",
   resume:
-    "https://drive.google.com/uc?export=download&id=1ejmOKrzAh3mdLBkAvfslUxN86owuKHsz" ,
+    "https://drive.google.com/uc?export=download&id=1_bTcY8LWFMwvtdRe6X4EUdP_8vxKJY3y" ,
     // 1ejmOKrzAh3mdLBkAvfslUxN86owuKHsz
   linkedin: "https://www.linkedin.com/in/sachinkumar70177/",
   twitter: "https://twitter.com/Sachinpate95178",
@@ -180,9 +180,10 @@ export const projects = [
     tags: [
       "HTML",
       "CSS",
-      "JAVASCRIPT",
-      "BOOTSTRAP",
-      "NETLIFY"
+      "JavaScript",
+      "BootStrap",
+      "Netlify",
+      "Git & GitHub"
     ],
     category: "Ecommerce app",
     github: "https://github.com/sachinkumar70177/foregoing-silver-4856",
@@ -196,7 +197,7 @@ export const projects = [
       "Developed Financia, an online financial helper application. Provided users with a platform to manage their income and expenses by adding accounts and transactions. Implemented user registration and authentication functionality. One of the key features of our website is our payment gateway, which allows users to easily send and receive money online. Our team of financial experts provides users with valuable insights and analysis, helping them make informed decisions about their payments.",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["HTML5", "CSS3",    "JAVASCRIPT","RENDER", "JSON SERVER","NETLIFY"],
+    tags: ["HTML5", "CSS3",    "JavaScript","Render", "JSON Server","Netlify"],
     category: "tax app",
     github: "https://github.com/UttamVerma/sole-friction-3146",
     webapp: "https://aquamarine-alfajores-b85955.netlify.app/",

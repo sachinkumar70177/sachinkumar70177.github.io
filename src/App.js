@@ -45,7 +45,7 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Githubstats/>
-            <Education />
+            {/* <Education /> */}
             <Contact />
           </Wrapper>
           <Footer />

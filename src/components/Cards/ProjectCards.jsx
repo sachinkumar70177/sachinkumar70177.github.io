@@ -1,23 +1,67 @@
 import React from 'react'
 import styled from 'styled-components'
+// import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
 
-
-const Button = styled.button`
-    display: none;
+const Buttons = styled.button`
+    // display: none;
     width: 100%;
     padding: 10px;
-    background-color: ${({ theme }) => theme.white};
-    color: ${({ theme }) => theme.text_black};
+    background-color: ${({ theme }) => theme.primary}};
+    ${({ dull, theme }) => dull && `
+    background-color: ${theme.bgLight};
+    color: ${theme.text_secondary};
+    &:hover {
+        background-color: ${({ theme }) => theme.bg + 99};
+    }
+`}
+    color: ${({ theme }) => theme.text_primary};
     font-size: 14px;
     font-weight: 700;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.8s ease-in-out;
+
+    text-decoration: none;
+  
+    &:hover {
+        background-color: ${({ theme }) => theme.primary + 99};
+    }
+    @media only screen and (max-width: 600px) {
+        font-size: 12px;
+    }
 `
+
+const Button = styled.a`
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: ${({ theme }) => theme.text_primary};
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: ${({ theme }) => theme.primary};
+    ${({ dull, theme }) => dull && `
+        background-color: ${theme.bgLight};
+        color: ${theme.text_secondary};
+        &:hover {
+            background-color: ${({ theme }) => theme.bg + 99};
+        }
+    `}
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    &:hover {
+        background-color: ${({ theme }) => theme.primary + 99};
+    }
+    @media only screen and (max-width: 600px) {
+        font-size: 12px;
+    }
+`;
+
 const Card = styled.div`
-    width: 330px;
-    height: 490px;
+    width: 450px;
+    height: 610px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -33,8 +77,12 @@ const Card = styled.div`
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
         filter: brightness(1.1);
     }
-    &:hover ${Button} {
-        display: block;
+    // &:hover ${Button} {
+    //     display: block;
+    // }
+    @media only screen and (max-width: 768px){
+        width: 350px;
+        height: 580px;
     }
 `
 
@@ -102,7 +150,7 @@ const Description = styled.div`
     margin-top: 8px;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
 `
@@ -120,7 +168,20 @@ const Avatar = styled.img`
     background-color: ${({ theme }) => theme.white};
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border: 3px solid ${({ theme }) => theme.card};
+
 `
+const ButtonGroup = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    margin: 12px 0px;
+    gap: 12px;
+`;
+
+
+// kaato
+
+
+
 
 const ProjectCards = ({project,setOpenModal}) => {
     return (
@@ -136,12 +197,17 @@ const ProjectCards = ({project,setOpenModal}) => {
                 <Date>{project.date}</Date>
                 <Description className='project-description'>{project.description}</Description>
             </Details>
-            <Members>
+            {/* <Members>
                 {project.member?.map((member) => (
                     <Avatar    src={member.img}/>
                 ))}
-            </Members>
-            {/* <Button>View Project</Button> */}
+            </Members> */}
+          
+            <ButtonGroup>
+                        <Button dull href={project?.github} target='new' className="project-github-link">View Code</Button>
+                        <Button href={project?.webapp} target='new' className='project-deployed-link'>View Live App</Button>
+                    </ButtonGroup>
+            <Buttons dull >View Project</Buttons>
         </Card>
     )
 }

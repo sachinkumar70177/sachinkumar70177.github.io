@@ -103,6 +103,12 @@ const Card = styled.div`
         width: 380px;
     height: 790px;
     }
+    @media (max-width: 420px) {
+        margin-top: 12px;
+        font-size: 16px;
+        width: 350px;
+    height: 790px;
+    }
   
 `
 function Githubstats() {
