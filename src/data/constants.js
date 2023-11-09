@@ -176,7 +176,7 @@ export const projects = [
     description:
       "Developed ShopOn, an e-commerce website offering items like jewelry, clothes, and electronics. Implemented user registration and authentication functionality. Enabled add-to-cart and CRUD operations for orders and items. Designed and built the front-end user interface, including features like filtering, sorting, and search. Handled exceptions, validations, and maintained the project repository on GitHub. Completed the project individually in 5 days.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://user-images.githubusercontent.com/123868331/281652215-205272d2-e320-460b-ba12-f248fd6100ed.png",
     tags: [
       "HTML",
       "CSS",
@@ -196,7 +196,7 @@ export const projects = [
     description:
       "Developed Financia, an online financial helper application. Provided users with a platform to manage their income and expenses by adding accounts and transactions. Implemented user registration and authentication functionality. One of the key features of our website is our payment gateway, which allows users to easily send and receive money online. Our team of financial experts provides users with valuable insights and analysis, helping them make informed decisions about their payments.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://user-images.githubusercontent.com/123868331/281652209-970c279e-f9a1-491e-b35d-36cb76872806.png",
     tags: ["HTML5", "CSS3",    "JavaScript","Render", "JSON Server","Netlify"],
     category: "tax app",
     github: "https://github.com/UttamVerma/sole-friction-3146",
@@ -225,7 +225,7 @@ export const projects = [
     description:
       "Developed Masking, an educational and community website focused on the importance of wearing masks. Implemented user registration and authentication features. Designed and created pages for the community, about, and landing sections.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+      "https://user-images.githubusercontent.com/123868331/281652200-6bdc808e-4769-44ab-ac7a-b16486e2a32d.png",
     tags: ["React Native", "JavaScript", "Axios","Json Server","HTML","CSS","Chakra UI"],
     category: "Health app",
     github: "https://github.com/sachinkumar70177/noxious-trouble-4451",
@@ -242,7 +242,7 @@ export const projects = [
     description:
       "Ez Tax is your hassle-free solution for tax return submission and calculations. Our user-friendly platform is designed to empower individuals and businesses with easy tax management, eliminating the need for costly practitioners.",
     image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
+      "https://user-images.githubusercontent.com/123868331/281652184-b88a6603-b4c4-4390-9b52-3784c84681b2.png",
     tags: ["HTML", "CSS", "JavaScript", "React", "Chakra Ui", "Json Server"],
     category: "tax app",
     github: "https://github.com/ankitkrai07/stoic-sack-3017",
