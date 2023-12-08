@@ -10,7 +10,8 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/sachinkumar70177",
   resume:
-    "https://drive.google.com/uc?export=download&id=12FoxiMTsNj-8HXlnzz2DCq1YKlmM-V56" ,
+    "https://drive.google.com/uc?export=download&id=1DoG9mdSIZu7gHAnMcFEuYl03k1eZOaVJ" ,
+    resume1:"https://drive.google.com/file/d/1DoG9mdSIZu7gHAnMcFEuYl03k1eZOaVJ/view",
     // 1ejmOKrzAh3mdLBkAvfslUxN86owuKHsz
   linkedin: "https://www.linkedin.com/in/sachinkumar70177/",
   twitter: "https://twitter.com/Sachinpate95178",
@@ -74,7 +75,15 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-      
+      {
+name:"MongoDB",
+image:"https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass-thumbnail.png"
+      },
+      {
+        name:"Express js",
+        image:"https://e7.pngegg.com/pngimages/247/558/png-clipart-node-js-javascript-express-js-npm-react-github-angle-text.png"
+      }
+
     ],
   },
   {
@@ -237,7 +246,7 @@ export const projects = [
   
   {
     id: 8,
-    title: "EX tax",
+    title: "Ez tax",
     date: "Jan 2021",
     description:
       "Ez Tax is your hassle-free solution for tax return submission and calculations. Our user-friendly platform is designed to empower individuals and businesses with easy tax management, eliminating the need for costly practitioners.",

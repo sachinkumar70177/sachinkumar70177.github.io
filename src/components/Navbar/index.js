@@ -62,9 +62,14 @@ const Navbar = ({ setDarkMode }) => {
         <ButtonContainer   className="nav-link resume" id="resume-button-1">
           <ResumeButton
             href={Bio.resume}
-            download="Sachin-Kumar-resume.pdf"
+            download="Sachin-Kumar-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open(Bio.resume1, '_blank'); // Open the link in a new tab/window
+              window.location.href = Bio.resume; // Redirect to the link
+            }}
             className="nav-link resume"
             id="resume-link-1"
           >
@@ -132,9 +137,14 @@ const Navbar = ({ setDarkMode }) => {
               href={Bio.resume}
               target="_blank"
               className="nav-link resume"
-              download="Sachin-Kumar-resume.pdf"
+              download="Sachin-Kumar-Resume.pdf"
              
               rel="noopener noreferrer"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(Bio.resume1, '_blank'); // Open the link in a new tab/window
+                window.location.href = Bio.resume; // Redirect to the link
+              }}
             >
               Resume
             </ResumeButton>
