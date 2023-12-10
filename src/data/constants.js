@@ -196,7 +196,7 @@ export const projects = [
     ],
     category: "Ecommerce app",
     github: "https://github.com/sachinkumar70177/foregoing-silver-4856",
-    webapp: "https://reliable-mandazi-1282ff.netlify.app/",
+    webapp: "https://reliable-sunflower-f511f7.netlify.app/",
   },
   {
     id: 0,
