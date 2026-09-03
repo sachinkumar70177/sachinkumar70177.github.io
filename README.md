@@ -64,7 +64,7 @@ The portfolio website provides an overview of:
 
 The landing section introduces me and provides a quick overview of my profile.
 
-![Portfolio Home](./screenshots/home.png)
+![Portfolio Home](./Screenshot/home.png)
 
 ---
 
@@ -72,7 +72,7 @@ The landing section introduces me and provides a quick overview of my profile.
 
 The skills section highlights my frontend and backend technologies.
 
-![Portfolio Skills](./screenshots/skills.png)
+![Portfolio Skills](./Screenshot/skills.png)
 
 ---
 
@@ -80,7 +80,7 @@ The skills section highlights my frontend and backend technologies.
 
 The experience section presents my professional experience as a Full Stack Developer.
 
-![Portfolio Experience](./screenshots/experience.png)
+![Portfolio Experience](./Screenshot/experience.png)
 
 ---
 
@@ -88,7 +88,7 @@ The experience section presents my professional experience as a Full Stack Devel
 
 The projects section showcases applications I have built across different categories, including e-commerce, health, and financial applications.
 
-![Portfolio Projects](./screenshots/projects.png)
+![Portfolio Projects](./Screenshot/projects.png)
 
 ---
 
@@ -96,7 +96,7 @@ The projects section showcases applications I have built across different catego
 
 Visitors can use the contact form to get in touch with me regarding opportunities or other inquiries.
 
-![Portfolio Contact](./screenshots/contact.png)
+![Portfolio Contact](./Screenshot/contact.png)
 
 ## 📂 Project Structure
 
