@@ -5,10 +5,11 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/sachinkumar70177",
   resume:
-    "https://drive.google.com/uc?export=download&id=1DoG9mdSIZu7gHAnMcFEuYl03k1eZOaVJ",
+    "https://drive.google.com/uc?export=download&id=16Z7DSfqNrTuo6M7Lx3KzU-DZr13FjqDW",
   resume1:
-    "https://drive.google.com/file/d/1DoG9mdSIZu7gHAnMcFEuYl03k1eZOaVJ/view",
+    "https://drive.google.com/file/d/16Z7DSfqNrTuo6M7Lx3KzU-DZr13FjqDW/view",
   // 1ejmOKrzAh3mdLBkAvfslUxN86owuKHsz
+
   linkedin: "https://www.linkedin.com/in/sachinkumar70177/",
   twitter: "https://twitter.com/Sachinpate95178",
   insta: "https://www.instagram.com/i_m_only_sk/",
