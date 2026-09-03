@@ -1,18 +1,14 @@
 export const Bio = {
   name: "Sachin Kumar",
-  roles: [
-    "Full Stack Developer",
-    
-    "UI/UX Designer",
-    "Programmer",
-  ],
+  roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/sachinkumar70177",
   resume:
-    "https://drive.google.com/uc?export=download&id=1DoG9mdSIZu7gHAnMcFEuYl03k1eZOaVJ" ,
-    resume1:"https://drive.google.com/file/d/1DoG9mdSIZu7gHAnMcFEuYl03k1eZOaVJ/view",
-    // 1ejmOKrzAh3mdLBkAvfslUxN86owuKHsz
+    "https://drive.google.com/uc?export=download&id=1DoG9mdSIZu7gHAnMcFEuYl03k1eZOaVJ",
+  resume1:
+    "https://drive.google.com/file/d/1DoG9mdSIZu7gHAnMcFEuYl03k1eZOaVJ/view",
+  // 1ejmOKrzAh3mdLBkAvfslUxN86owuKHsz
   linkedin: "https://www.linkedin.com/in/sachinkumar70177/",
   twitter: "https://twitter.com/Sachinpate95178",
   insta: "https://www.instagram.com/i_m_only_sk/",
@@ -33,7 +29,7 @@ export const skills = [
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-      
+
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -58,7 +54,6 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsg-Nk_XA2xB_W9eyQwwmtiri27JQ1-VBGLbidYHZNxg&s",
       },
-     
     ],
   },
   {
@@ -68,38 +63,39 @@ export const skills = [
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
       },
-     
-     
+
       {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-name:"MongoDB",
-image:"https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass-thumbnail.png"
+        name: "MongoDB",
+        image:
+          "https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass-thumbnail.png",
       },
       {
-        name:"Express js",
-        image:"https://e7.pngegg.com/pngimages/247/558/png-clipart-node-js-javascript-express-js-npm-react-github-angle-text.png"
-      }
-
+        name: "Express js",
+        image:
+          "https://e7.pngegg.com/pngimages/247/558/png-clipart-node-js-javascript-express-js-npm-react-github-angle-text.png",
+      },
     ],
   },
   {
-    title: "Social",
+    title: "Soft Skills",
     skills: [
       {
-        name: "CodePen",
-        image:
-          "https://cpwebassets.codepen.io/assets/social/facebook-default-05cf522ae1d4c215ae0f09d866d97413a2204b6c9339c6e7a1b96ab1d4a7340f.png",
+        name: "Communication",
       },
       {
-        name: "CodeSandbox",
-        image:
-          "https://cdn.icon-icons.com/icons2/2389/PNG/512/codesandbox_logo_icon_145391.png",
+        name: "Collaboration",
       },
-     
+      {
+        name: "Problem Solving",
+      },
+      {
+        name: "Adaptability",
+      },
     ],
   },
   {
@@ -135,16 +131,55 @@ image:"https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-documen
         image:
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
       },
-   {
-    name:"Canva",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHjbHdGD4AlXCldrTra93IksASOZDPUWo3rmtLzlWruQ&s"
-   }
+      {
+        name: "CodePen",
+        image:
+          "https://cpwebassets.codepen.io/assets/social/facebook-default-05cf522ae1d4c215ae0f09d866d97413a2204b6c9339c6e7a1b96ab1d4a7340f.png",
+      },
+      {
+        name: "CodeSandbox",
+        image:
+          "https://cdn.icon-icons.com/icons2/2389/PNG/512/codesandbox_logo_icon_145391.png",
+      },
     ],
   },
 ];
 
 export const experiences = [
-  
+  {
+    img: "/Screenshot/idexcel.jpg",
+    role: "Full Stack Developer",
+    company: "Idexcel",
+    date: "Aug 2024 - Aug 2026",
+    desc: "Worked on full-stack web applications using React, TypeScript, Node.js, and Express.js. Developed and maintained scalable features, integrated APIs, and contributed to improving application performance and user experience.",
+    skills: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "HTML",
+      "CSS",
+    ],
+    // doc: "/Screenshot/idexcel.jpg",
+  },
+  {
+    img: "/Screenshot/masai.jpg",
+    role: "Full Stack Developer",
+    company: "Masai School",
+    date: "jan 2023 - Jul 2024",
+    desc: "Completed an intensive Full Stack Web Development program focused on building real-world applications using modern web technologies.",
+    skills: [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "HTML",
+      "CSS",
+    ],
+    doc: "/Screenshot/masai_certificate.png",
+  },
 ];
 
 export const education = [
@@ -186,14 +221,7 @@ export const projects = [
       "Developed ShopOn, an e-commerce website offering items like jewelry, clothes, and electronics. Implemented user registration and authentication functionality. Enabled add-to-cart and CRUD operations for orders and items. Designed and built the front-end user interface, including features like filtering, sorting, and search. Handled exceptions, validations, and maintained the project repository on GitHub. Completed the project individually in 5 days.",
     image:
       "https://user-images.githubusercontent.com/123868331/281652215-205272d2-e320-460b-ba12-f248fd6100ed.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "BootStrap",
-      "Netlify",
-      "Git & GitHub"
-    ],
+    tags: ["HTML", "CSS", "JavaScript", "BootStrap", "Netlify", "Git & GitHub"],
     category: "Ecommerce app",
     github: "https://github.com/sachinkumar70177/foregoing-silver-4856",
     webapp: "https://reliable-sunflower-f511f7.netlify.app/",
@@ -206,7 +234,7 @@ export const projects = [
       "Developed Financia, an online financial helper application. Provided users with a platform to manage their income and expenses by adding accounts and transactions. Implemented user registration and authentication functionality. One of the key features of our website is our payment gateway, which allows users to easily send and receive money online. Our team of financial experts provides users with valuable insights and analysis, helping them make informed decisions about their payments.",
     image:
       "https://user-images.githubusercontent.com/123868331/281652209-970c279e-f9a1-491e-b35d-36cb76872806.png",
-    tags: ["HTML5", "CSS3",    "JavaScript","Render", "JSON Server","Netlify"],
+    tags: ["HTML5", "CSS3", "JavaScript", "Render", "JSON Server", "Netlify"],
     category: "tax app",
     github: "https://github.com/UttamVerma/sole-friction-3146",
     webapp: "https://aquamarine-alfajores-b85955.netlify.app/",
@@ -220,13 +248,12 @@ export const projects = [
       {
         name: "Uttam Verma",
         img: "https://avatars.githubusercontent.com/u/123862542?v=4",
-     
+
         github: "https://github.com/UttamVerma",
       },
     ],
   },
-  
-  
+
   {
     id: 10,
     title: "Masking App",
@@ -235,15 +262,20 @@ export const projects = [
       "Developed Masking, an educational and community website focused on the importance of wearing masks. Implemented user registration and authentication features. Designed and created pages for the community, about, and landing sections.",
     image:
       "https://user-images.githubusercontent.com/123868331/281652200-6bdc808e-4769-44ab-ac7a-b16486e2a32d.png",
-    tags: ["React Native", "JavaScript", "Axios","Json Server","HTML","CSS","Chakra UI"],
+    tags: [
+      "React Native",
+      "JavaScript",
+      "Axios",
+      "Json Server",
+      "HTML",
+      "CSS",
+      "Chakra UI",
+    ],
     category: "Health app",
     github: "https://github.com/sachinkumar70177/noxious-trouble-4451",
     webapp: "https://masking-84nszogmf-sachin70177.vercel.app/",
   },
- 
-  
-  
-  
+
   {
     id: 8,
     title: "Ez tax",

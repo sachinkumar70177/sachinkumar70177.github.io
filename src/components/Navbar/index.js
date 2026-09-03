@@ -45,21 +45,35 @@ const Navbar = ({ setDarkMode }) => {
           />
         </MobileIcon>
         <NavItems>
-          {/* about */}
-          <NavLink  className="nav-link about" href="#about">About</NavLink>
-        {/* skills */}
-          <NavLink className="nav-link skills" href="#skills">Skills</NavLink>
-         {/* projects */}
-          <NavLink className="nav-link projects" href="#projects">Projects</NavLink>
-         {/* home */}
-          <NavLink className="nav-link home" href="#home">GithubStats</NavLink>
+          {/* Home */}
+          <NavLink className="nav-link about" href="#about">
+            Home
+          </NavLink>
+
+          {/* skills */}
+          <NavLink className="nav-link skills" href="#skills">
+            Skills
+          </NavLink>
+          {/* experience */}
+          <NavLink className="nav-link experience" href="#experience">
+            About
+          </NavLink>
+          {/* projects */}
+          <NavLink className="nav-link projects" href="#projects">
+            Projects
+          </NavLink>
+          {/* home */}
+          <NavLink className="nav-link home" href="#home">
+            GithubStats
+          </NavLink>
           {/* education */}
           {/* <NavLink className="nav-link education" href="#education">Education</NavLink> */}
           {/* contact */}
-          <NavLink className="nav-link contact" href="#contact">Contact</NavLink>
-
+          <NavLink className="nav-link contact" href="#contact">
+            Contact
+          </NavLink>
         </NavItems>
-        <ButtonContainer   className="nav-link resume" id="resume-button-1">
+        <ButtonContainer className="nav-link resume" id="resume-button-1">
           <ResumeButton
             href={Bio.resume}
             download="Sachin-Kumar-Resume.pdf"
@@ -67,7 +81,7 @@ const Navbar = ({ setDarkMode }) => {
             rel="noopener noreferrer"
             onClick={(e) => {
               e.preventDefault();
-              window.open(Bio.resume1, '_blank'); // Open the link in a new tab/window
+              window.open(Bio.resume1, "_blank"); // Open the link in a new tab/window
               window.location.href = Bio.resume; // Redirect to the link
             }}
             className="nav-link resume"
@@ -78,7 +92,8 @@ const Navbar = ({ setDarkMode }) => {
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
-            <MobileLink className="nav-link about"
+            <MobileLink
+              className="nav-link about"
               href="#about"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -86,7 +101,8 @@ const Navbar = ({ setDarkMode }) => {
             >
               About
             </MobileLink>
-            <MobileLink className="nav-link skills"
+            <MobileLink
+              className="nav-link skills"
               href="#skills"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -94,8 +110,9 @@ const Navbar = ({ setDarkMode }) => {
             >
               Skills
             </MobileLink>
-           
-            <MobileLink className="nav-link projects"
+
+            <MobileLink
+              className="nav-link projects"
               href="#projects"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -103,7 +120,8 @@ const Navbar = ({ setDarkMode }) => {
             >
               Projects
             </MobileLink>
-            <MobileLink className="nav-link home"
+            <MobileLink
+              className="nav-link home"
               href="#home"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -119,7 +137,8 @@ const Navbar = ({ setDarkMode }) => {
             >
               Education
             </MobileLink> */}
-            <MobileLink className="nav-link contact"
+            <MobileLink
+              className="nav-link contact"
               href="#contact"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -138,11 +157,10 @@ const Navbar = ({ setDarkMode }) => {
               target="_blank"
               className="nav-link resume"
               download="Sachin-Kumar-Resume.pdf"
-             
               rel="noopener noreferrer"
               onClick={(e) => {
                 e.preventDefault();
-                window.open(Bio.resume1, '_blank'); // Open the link in a new tab/window
+                window.open(Bio.resume1, "_blank"); // Open the link in a new tab/window
                 window.location.href = Bio.resume; // Redirect to the link
               }}
             >
